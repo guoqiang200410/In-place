@@ -1,0 +1,295 @@
+*{margin: 0;padding: 0,}
+html{
+	font-size:62.5%;
+	font-family: '微软雅黑';
+	color: #3d3838;
+}
+body{
+	line-height: 1.5;
+}
+ul,ol{
+	list-style: none;
+}
+::selection{
+	background: #ccc;
+}
+/*清除浮动*/
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+/*内容居中*/
+.center{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
+a{
+	color:#3d3838;
+	text-decoration: none;
+}
+
+
+
+header{
+	border-bottom: 1px solid #e5e5e5;
+	padding: 1rem 0;
+}
+header .logo a{
+	float: left;
+}
+header .logo span{
+	color: #bfbfbf;
+	font-size: 1.8rem;
+	float: left;
+	padding-top: 0.3rem;
+	padding-left: 1rem;
+}
+.check-city{
+	font-size: 1.6rem;
+	padding-top: 0.5rem;
+}
+.check-city span:nth-child(1){
+	color: #ea4942;
+}
+.top-nav{
+	padding-top: 0.5rem;
+}
+.top-nav li{
+	display: inline-block;
+}
+.top-nav li + li{
+	padding-left: 2.5rem;
+}
+.top-nav li a:hover{
+	color: #e94840;
+}
+.top-nav li:last-child button{
+	padding: 0.2rem 0.5rem;
+	padding-top: 0.3rem;
+	background: #e94840;
+	color: #fff;
+	border: 0px;
+	border-radius: 5px;
+}
+
+
+.banner{
+	background: #fff1f1;
+}
+.swiper-container {
+	width: 100%;
+	height: 420px;
+	background: #fff1f1;
+	position: relative;
+	z-index: 1;
+}
+.swiper-slide{
+	line-height: 420px;
+	text-align: center;
+}
+.nav-banner{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.nav-banner{
+	background: #757881;
+	margin-left: 3rem;
+}
+.nav-ban-erji,.nav-ban-erji a{
+	color: #fff;
+	font-size: 1.8rem;
+}
+.nav-ban-erji a:hover{
+	text-decoration: none;
+}
+.nav-ban-erji{
+	padding: 0.62rem 2.5rem 0.62rem 0;
+}
+.nav-ban-erji span img{
+	display: inline-block;
+	padding-left: 3rem;
+}
+.nav-ban-erji{
+	position: relative;
+}
+.nav-ban-erji ol{
+	position: absolute;
+	top: 0;
+	right: -12.5rem;
+	padding-left: 2rem;
+	background: rgba(255,255,255,0.5);
+}
+.nav-ban-erji ol li{
+	color: #000;
+	padding: 0.62rem 2.5rem 0.62rem 2rem;
+}
+
+
+
+.cont-nav li{
+	display: inline-block;
+}
+.cont-nav li + li{
+	margin-left: 1rem;
+}
+
+
+
+
+/*家庭保洁*/
+.clean-keeping{
+	padding-top: 3rem;
+}
+.clean h2{
+	font-size: 2.8rem;
+	font-weight: 700;
+}
+.clean-keeping h2{
+	font-size: 2.8rem;
+}
+.thumbnail{
+	border-radius: 0px;
+}
+.cont-nav{
+	padding-bottom: 2rem;
+}
+.cont-server-list{
+	width: 20%;
+}
+.cont-particulars{
+	font-size: 1.4rem;
+	color: #929292;
+}
+.thumbnail h3{
+	font-size: 1.6rem;
+	margin-top: 0;
+}
+.cont-price span{
+	color: #fb474f;
+	font-size: 1.6rem;
+}
+.cont-price span b{
+	font-size: 2rem;
+}
+.btn{
+	float: right;
+	padding: 0.3rem 1rem;
+	background: #fb474f;
+	border: 0;
+	color: #fff;
+}
+.fws{
+	border: 1px solid #eaeaea;
+	padding: 0.5rem 0;
+	margin-bottom: 2rem;
+}
+.fws a{
+	padding: 0.2rem 0.5rem;
+	display: inline-block;
+}
+.fws a:hover{
+	color: #fb474f;
+	text-decoration: none;
+}
+
+.gray-bg{
+	background: #fbf8f8;
+}
+.spec-nav{
+	padding-left: 4.5rem;
+}
+.spec-nav2{
+	padding-left: 5.5rem;
+}
+.spec-nav3{
+	padding-left: 4rem;
+}
+
+
+/*service*/
+.service{
+	padding: 4rem 0 2.5rem 0;
+}
+.service h2{
+	color: #333;
+	font-weight: 700;
+}
+.service h2 span{
+	color: #fb474f;
+	font-weight: 700;
+}
+.service h2{
+	color: #3d3838;
+	font-weight: 700;
+}
+.service-get li span{
+	display: inline-block;
+	float: left;
+	padding-right: 1rem;
+}
+.baozhang img{
+	float: left;
+	padding-right: 1rem;
+}
+
+
+.spec-nav4{
+	padding-left: 7rem;
+}
+.spec-nav5{
+	padding-left: 4.5rem;
+}
+
+
+/*hot-city*/
+.hot-city{
+	padding-top: 4rem;
+}
+.hot-city-title{
+	font-size: 1.8rem;
+	color: #000;
+}
+.hot-city ul li{
+	display: inline-block;
+	width: 9%;
+	text-align: center;
+	padding: 0.3rem 0;
+}
+.hot-city ul li a{
+	font-size: 1.6rem;
+	color: #898989;
+}
+.hot-city ul li a:hover{
+	color: #fb474f;
+}
+
+
+
+/**/
+.partner{
+	background: #fbf8f8;
+	padding-top: 2rem;
+}
+.partner h2{
+	font-size: 1.8rem;
+	color: #000;
+	padding-bottom: 1rem;
+}
+.partner ul{
+	padding-left: 0;
+}
+.partner ul li{
+	display: inline-block;
+	width: 11%;
+	text-align: center;
+	padding-right: 1%;
+}
+
+.copy-right{
+	font-size: 1.4rem;
+	color: #898989;
+}
